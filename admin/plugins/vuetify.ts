@@ -21,7 +21,7 @@ export default defineNuxtPlugin((app) => {
         lightTheme: {
           dark: false,
           colors: {
-            primary: colors.yellow.darken3,
+            primary: colors.blue.darken3,
             secondary: colors.teal.lighten4,
             background: "#f5f5f9",
             surface: "#ffffff",
@@ -30,7 +30,7 @@ export default defineNuxtPlugin((app) => {
         darkTheme: {
           dark: true,
           colors: {
-            primary: colors.yellow.darken3,
+            primary: colors.blue.darken3,
             secondary: colors.teal.lighten4,
             background: colors.blueGrey.darken3,
             surface: colors.blueGrey.darken4,
