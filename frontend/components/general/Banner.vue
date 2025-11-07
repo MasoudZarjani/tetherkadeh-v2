@@ -3,7 +3,7 @@ const { site } = await useSiteInfo()
 const localePath = useLocalePath()
 const { locale } = useI18n()
 
-const props = defineProps<{ symbol: any; status: string }>()
+const props = defineProps<{ symbol: any }>()
 
 const lastBuy =
   (props.symbol.last + props.symbol.buyingPriceGap) *

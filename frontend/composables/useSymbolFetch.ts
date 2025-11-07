@@ -1,14 +1,24 @@
 export const useSymbolFetch = async () => {
-  const config = useRuntimeConfig()
-  const { data, pending, error, status } = await useLazyFetch<any>(
-    `${config.public.baseURL}/api/v1/symbol`
-  )
-  const fallback = ref([{ symbol: 'USDT', price: 0 }]) // مقدار اولیه
+  const { toggleOverlay } = useOverlayStore()
+  const api = useApi()
+  const isLoading = ref(false)
+  const items: any = ref([])
+
+  const getData = async () => {
+    try {
+      isLoading.value = true
+      toggleOverlay(true)
+      const data: any = await api.get('/api/v1/symbol')
+      items.value = data[0]
+    } finally {
+      isLoading.value = false
+      toggleOverlay(false)
+    }
+  }
 
   return {
-    data: computed(() => data.value?.data || fallback.value),
-    pending,
-    error,
-    status,
+    isLoading,
+    items,
+    getData,
   }
 }

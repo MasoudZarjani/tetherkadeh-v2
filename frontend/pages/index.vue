@@ -120,10 +120,12 @@ useSchemaOrg([
     ],
   },
 ])
-
+onMounted(() => {
+  getData()
+})
 // Fetch data
 toggleOverlay(true)
-const { data: items, status } = await useSymbolFetch()
+const { isLoading, items, getData } = await useSymbolFetch()
 toggleOverlay(false)
 </script>
 
@@ -136,7 +138,7 @@ toggleOverlay(false)
       را به سایر ارزها تبدیل کرده و سپس نگهداری فرمایید.
     </p>
   </CoreDialogAnnouncement>
-  <GeneralBanner :symbol="items?.[0]" :status="status" />
+  <GeneralBanner :symbol="items" v-if="!isLoading" />
   <GeneralFeaturesSection />
   <GeneralHowSection />
   <GeneralFaqSection />
