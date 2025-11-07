@@ -195,7 +195,7 @@ const handleSubmit = async () => {
               <BaseIcon
                 :name="channel.icon"
                 class="w-8"
-                fill="#FFB900"
+                fill="#0084FF"
                 :aria-label="channel.ariaLabel"
               />
             </div>
@@ -291,7 +291,7 @@ const handleSubmit = async () => {
                   <div
                     class="w-8 h-8 rounded-full flex items-center justify-center shrink-0 bg-blue-300/20 mx-2"
                   >
-                    <BaseIcon :name="info.icon" class="w-4" fill="#FFB900" />
+                    <BaseIcon :name="info.icon" class="w-4" fill="#0084FF" />
                   </div>
                   <div>
                     <h3 class="font-semibold text-gray-800 dark:text-white">

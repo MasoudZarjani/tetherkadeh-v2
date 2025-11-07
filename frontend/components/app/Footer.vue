@@ -101,7 +101,7 @@ const headers = ['quickAccess', 'contactUs']
       <div class="my-4 flex items-center justify-center lg:my-0">
         <div class="px-2" v-for="social in socials">
           <a :href="social.to" target="_blank">
-            <BaseIcon :name="social.icon" class="w-8" fill="#FFB900" />
+            <BaseIcon :name="social.icon" class="w-8" fill="#0084FF" />
           </a>
         </div>
       </div>
