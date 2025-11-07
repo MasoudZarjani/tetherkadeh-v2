@@ -61,7 +61,7 @@ const setActive = (index: number) => {
             <BaseIcon
               :name="menu.icon"
               className="w-6 h-6"
-              :fill="active === i ? '#FFFFFF' : '#FFB900'"
+              :fill="active === i ? '#FFFFFF' : '#0084FF'"
             />
           </span>
           <span
