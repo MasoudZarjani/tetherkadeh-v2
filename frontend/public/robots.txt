@@ -1,0 +1,18 @@
+User-agent: *
+
+allow: /blog/wp-admin/admin-ajax.php
+allow: /help/wp-admin/admin-ajax.php
+allow: /blog/wp-content/uploads/
+allow: /help/wp-content/uploads/
+
+Disallow: /dashboard
+Disallow: /auth
+disallow: /blog/wp-admin/
+disallow: /help/wp-admin/
+disallow: /*?q=*
+disallow: /*?t=*
+disallow: /*?ref=*
+disallow: *?utm*
+disallow: /*?page=*
+
+Sitemap: https://tetherkade.com/sitemap.xml

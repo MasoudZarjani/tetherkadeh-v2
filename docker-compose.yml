@@ -1,0 +1,66 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: tetherkade_backend
+    restart: always
+    ports:
+      - "3021:3000"
+    networks:
+      - app-network
+    environment:
+      - MONGODB_DB_URI=mongodb://zarexchange:D68Az5nTgs38S875GLc8TY9FbCUnmhme@mongo_service:27017/tetherkade_db?authSource=admin
+      - REDIS_HOST=redis_service
+      - REDIS_PORT=6379
+      - NODE_ENV=production
+      - PORT=3000
+      - APP_NAME=Tetherkade
+      - JWT_SECRET=secret
+      - JWT_SECRET_ADMIN=secret
+      - TETHER_LAND_API_URL=https://api.tetherland.com/currencies
+      - OKEX_API_URL=https://azapi.ok-ex.io/oapi/v1/market/ticker?symbol=USDT-IRT
+      - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+      - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
+    volumes:
+      - ./uploads:/usr/src/app/uploads
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: tetherkade_frontend
+    restart: always
+    ports:
+      - "3022:3000"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+    environment:
+      - NUXT_PUBLIC_API_BASE_URL=https://tetherkade.com/
+      - API_INTERNAL_URL=http://tetherkade_backend:3000
+      - NUXT_PUBLIC_GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+
+  admin:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    container_name: tetherkade_admin
+    restart: always
+    ports:
+      - "3023:3000"
+    depends_on:
+      - frontend
+    networks:
+      - app-network
+    environment:
+      - NUXT_PUBLIC_API_BASE_URL=https://tetherkade.com/
+      - API_INTERNAL_URL=http://tetherkade_backend:3000
+
+volumes:
+  uploads:
+
+networks:
+  app-network:
+    external: true

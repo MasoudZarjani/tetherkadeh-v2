@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /*?q=*
+Disallow: /*?utm*
+Allow: /feed
+Allow: /feed$
+Allow: /*/feed/
+Disallow: /en/
+Disallow: /dashboard/
+
+Sitemap: https://tetherkade.com/sitemap.xml

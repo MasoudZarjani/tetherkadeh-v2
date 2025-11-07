@@ -1,0 +1,124 @@
+body {
+  font-family: IRANYekanXFaNum;
+}
+
+.text-h6 {
+  font-family: IRANYekanXFaNum !important;
+}
+
+.text-h5 {
+  font-family: IRANYekanXFaNum !important;
+}
+
+.text-subtitle-1 {
+  font-family: IRANYekanXFaNum !important;
+}
+
+.text-subtitle-2 {
+  font-family: IRANYekanXFaNum !important;
+}
+
+.avatar-border {
+  background-image: linear-gradient(#50b2fc, #f44c66);
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.top-spacer {
+  margin-top: -95px;
+}
+
+.avatar-border .userImage {
+  border: 4px solid rgb(255, 255, 255);
+}
+
+.lstick {
+  width: 2px;
+  background: rgb(var(--v-theme-primary));
+  height: 30px;
+  position: absolute;
+  right: 1px;
+  top: 40px;
+  transform: translate(-50%, -50%);
+}
+
+.textSecondary {
+  color: rgb(124, 143, 172) !important;
+}
+
+.v-list-item__prepend {
+  display: block !important;
+}
+
+.no-over .v-list-item__content {
+  overflow: unset !important;
+}
+
+.v-badge__badge {
+  font-family: IRANYekanXFaNum !important;
+}
+
+.text-caption {
+  font-family: IRANYekanXFaNum !important;
+}
+
+.spin {
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+direction-ltr {
+  direction: ltr !important;
+}
+
+.v-list-item-title {
+  white-space: normal !important;
+}
+
+/* حذف بریدگی متن‌ها */
+.no-truncate {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  word-break: break-word !important;
+}
+
+/* انیمیشن کارت‌ها */
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: all 0.3s ease;
+}
+.fade-slide-enter-from {
+  opacity: 0;
+  transform: translateY(15px);
+}
+.fade-slide-leave-to {
+  opacity: 0;
+  transform: translateY(-15px);
+}
+
+/* استایل کارت */
+.v-card {
+  transition: all 0.2s ease;
+}
+.v-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.text-body-2 {
+  font-family: IRANYekanXFaNum !important;
+}

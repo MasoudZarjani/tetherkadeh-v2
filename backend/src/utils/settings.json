@@ -1,0 +1,1822 @@
+{
+  "siteName": "tetherkade",
+  "backendUrl": "https://api.tetherkade.com",
+  "frontUrl": "https://tetherkade.com",
+  "mobile": "09152242280",
+  "phone": "02128423400",
+  "address": "مشهد",
+  "email": "support@tetherkade.com",
+  "telegram": "https://t.me/tetherkade",
+  "instagram": "#",
+  "twitter": "#",
+  "facebook": "#",
+  "youtube": "#",
+  "linkedin": "#",
+  "whatsapp": "https://wa.me/989152242280?text=",
+  "map": "",
+  "logo": "",
+  "favicon": "",
+  "logoText": "",
+  "logoMobile": "",
+  "logoDark": "",
+  "faviconDark": "",
+  "logoTextDark": "",
+  "logoMobileDark": "",
+  "activeKyc": true,
+  "kycIntro": false,
+  "kycText": "",
+  "authSender": "sms",
+  "languages": ["fa-rtl-فارسی", "en-ltr-english"],
+  "defaultLanguage": "fa",
+  "activeGateway": true,
+  "tokenKavenegar": "6B3253546E68506357674C4E535A3444747953524D3631522B6B704A38466F3054333131447171486930553D",
+  "activeGiftForRegister": false,
+  "statusGiftRegister": "approved",
+  "symbolGiftRegister": "USDT",
+  "countGiftRegister": 1,
+  "depositApproved": "50000000",
+  "withdrawApproved": "1000000",
+  "depositTrusted": "100000000",
+  "withdrawTrusted": "500000000",
+  "smtpEmailServer": "smtp.c1.liara.email",
+  "smtpEmailUsername": "admiring_leakey_v0a784",
+  "smtpEmailPassword": "03555eb3-adcc-42ef-9351-91be51792594",
+  "smtpEmailPort": 465,
+  "version": "1.0.0",
+  "kycWithPhoto": true,
+  "kycWithVideo": true,
+  "sendDriver": "KAVENEGAR",
+  "jibitActive": true,
+  "jibitApiKey": "_AVdlDDWY7",
+  "jibitSecretKey": "zks_QphuJs8jK8hFvI63haPBa",
+  "goftinoKey": "",
+  "identifiedInfo": [
+    {
+      "shebaNumber": "",
+      "accountNumber": "",
+      "accountName": "حسین صاحبدل"
+    }
+  ],
+  "theme": {
+    "colors": {
+      "light": {
+        "primary": "#ffba00",
+        "secondary": "#64748b",
+        "bg": "#f1f5f9",
+        "text": "#0f172a"
+      },
+      "dark": {
+        "primary": "#ffba00",
+        "secondary": "#94a3b8",
+        "bg": "#0f172b",
+        "text": "#f1f5f9"
+      }
+    }
+  },
+  "codeMessage": {
+    "sendTokenVerify": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "ارسال پیام کد تایید",
+        "en": "send Token Verify"
+      },
+      "title": {
+        "fa": "کد تایید",
+        "en": "Verify Code"
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;strong&gt;{{code}}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;strong&gt;{{code}}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "sendTokenVerify",
+      "melipayamak": 0
+    },
+    "successLogin": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "با موفقیت وارد شدید.",
+        "en": "You have successfully logged in."
+      },
+      "title": {
+        "fa": "ورود موفق",
+        "en": "Login successful"
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "successLogin",
+      "melipayamak": 0
+    },
+    "activeUser": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "activeUser",
+      "melipayamak": 0
+    },
+    "activeEmailUser": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "activeEmailUser",
+      "melipayamak": 0
+    },
+    "sendEmailUser": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "ارسال پیام کد تایید",
+        "en": "send Token Verify"
+      },
+      "title": {
+        "fa": "کد تایید",
+        "en": "Verify Code"
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;strong&gt;{{code}}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;strong&gt;{{code}}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "sendTokenVerify",
+      "melipayamak": 0
+    },
+    "twoFactorVerification": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "twoFactorVerification",
+      "melipayamak": 0
+    },
+    "forgotPassword": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;strong&gt;{{code}}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;strong&gt;{{code}}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "forgotPassword",
+      "melipayamak": 0
+    },
+    "verifyForgotPassword": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "verifyForgotPassword",
+      "melipayamak": 0
+    },
+    "resetPassword": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "resetPassword",
+      "melipayamak": 0
+    },
+    "rejectStatusUser": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "rejectStatusUser",
+      "melipayamak": 0
+    },
+    "approveStatusUser": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "approveStatusUser",
+      "melipayamak": 0
+    },
+    "blockStatusUser": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "blockStatusUser",
+      "melipayamak": 0
+    },
+    "deleteStatusUser": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "deleteStatusUser",
+      "melipayamak": 0
+    },
+    "setStep1": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "setStep1",
+      "melipayamak": 0
+    },
+    "setStep2": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "setStep2",
+      "melipayamak": 0
+    },
+    "rejectStep1": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "rejectStep1",
+      "melipayamak": 0
+    },
+    "rejectStep2": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "rejectStep2",
+      "melipayamak": 0
+    },
+    "changeUserStep1": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "changeUserStep1",
+      "melipayamak": 0
+    },
+    "changeUserStep2": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "changeUserStep2",
+      "melipayamak": 0
+    },
+    "changeUserNone": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "changeUserNone",
+      "melipayamak": 0
+    },
+    "trustStatusUser": {
+      "type": ["LOG", "EMAIL", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "trustStatusUser",
+      "melipayamak": 0
+    },
+    "deleteAllBankAccount": {
+      "type": ["LOG", "INBOXUSER"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "deleteAllBankAccount",
+      "melipayamak": 0
+    },
+    "getToken2FV": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "getToken2FV",
+      "melipayamak": 0
+    },
+    "changePasswordUser": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "changePasswordUser",
+      "melipayamak": 0
+    },
+    "autoApprovUser": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "autoApprovUser",
+      "melipayamak": 0
+    },
+    "pendingUser": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "pendingUser",
+      "melipayamak": 0
+    },
+    "addTrader": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "addTrader",
+      "melipayamak": 0
+    },
+    "resendEmailAdmin": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;strong&gt;{{code}}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;&lt;strong&gt;{{code}}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "resendEmailAdmin",
+      "melipayamak": 0
+    },
+    "loginAdmin": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "ورود موفق مدیر",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "loginAdmin",
+      "melipayamak": 0
+    },
+    "registerAdmin": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "registerAdmin",
+      "melipayamak": 0
+    },
+    "activeMailAdmin": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "activeMailAdmin",
+      "melipayamak": 0
+    },
+    "resetPasswordAdmin": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "resetPasswordAdmin",
+      "melipayamak": 0
+    },
+    "changeStatusAdmin": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "changeStatusAdmin",
+      "melipayamak": 0
+    },
+    "updateAdmin": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "updateAdmin",
+      "melipayamak": 0
+    },
+    "chargeWallet": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "chargeWallet",
+      "melipayamak": 0
+    },
+    "increaseWallet": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "increaseWallet",
+      "melipayamak": 0
+    },
+    "manualDeposit": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "manualDeposit",
+      "melipayamak": 0
+    },
+    "acceptManualDeposit": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "acceptManualDeposit",
+      "melipayamak": 0
+    },
+    "rejectTransaction": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "rejectTransaction",
+      "melipayamak": 0
+    },
+    "acceptTransaction": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "acceptTransaction",
+      "melipayamak": 0
+    },
+    "addPayment": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "addPayment",
+      "melipayamak": 0
+    },
+    "rejectedPayment": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "rejectedPayment",
+      "melipayamak": 0
+    },
+    "depositPayment": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "depositPayment",
+      "melipayamak": 0
+    },
+    "cancelPayment": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "cancelPayment",
+      "melipayamak": 0
+    },
+    "requestWithdrawCode": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "requestWithdrawCode",
+      "melipayamak": 0
+    },
+    "verifyWithdraw": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "verifyWithdraw",
+      "melipayamak": 0
+    },
+    "addOrder": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "addOrder",
+      "melipayamak": 0
+    },
+    "finishOrder": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "finishOrder",
+      "melipayamak": 0
+    },
+    "deleteLevel": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "deleteLevel",
+      "melipayamak": 0
+    },
+    "updateLevel": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "updateLevel",
+      "melipayamak": 0
+    },
+    "cancelOrder": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "cancelOrder",
+      "melipayamak": 0
+    },
+    "addPairSymbol": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "addPairSymbol",
+      "melipayamak": 0
+    },
+    "updateSymbol": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "updateSymbol",
+      "melipayamak": 0
+    },
+    "addProduct": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "addProduct",
+      "melipayamak": 0
+    },
+    "updateProduct": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "updateProduct",
+      "melipayamak": 0
+    },
+    "deleteProduct": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "deleteProduct",
+      "melipayamak": 0
+    },
+    "addDiscount": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "addDiscount",
+      "melipayamak": 0
+    },
+    "updateDiscount": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "updateDiscount",
+      "melipayamak": 0
+    },
+    "deleteDiscount": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "deleteDiscount",
+      "melipayamak": 0
+    },
+    "checkDiscount": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "checkDiscount",
+      "melipayamak": 0
+    },
+    "addOrderProduct": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "addOrderProduct",
+      "melipayamak": 0
+    },
+    "rejectRequest": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "rejectRequest",
+      "melipayamak": 0
+    },
+    "approveRequest": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "approveRequest",
+      "melipayamak": 0
+    },
+    "setSetting": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "setSetting",
+      "melipayamak": 0
+    },
+    "addBankAccount": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "addBankAccount",
+      "melipayamak": 0
+    },
+    "updateBankAccount": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "updateBankAccount",
+      "melipayamak": 0
+    },
+    "deleteBankAccount": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "deleteBankAccount",
+      "melipayamak": 0
+    },
+    "approvedBankAccount": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "approvedBankAccount",
+      "melipayamak": 0
+    },
+    "rejectBankAccount": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "rejectBankAccount",
+      "melipayamak": 0
+    },
+    "createTicketUser": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "createTicketUser",
+      "melipayamak": 0
+    },
+    "answerTicketUser": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "answerTicketUser",
+      "melipayamak": 0
+    },
+    "closeTicketUser": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "closeTicketUser",
+      "melipayamak": 0
+    },
+    "createTicketAdmin": {
+      "type": ["LOG", "EMAIL", "SMS"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "createTicketAdmin",
+      "melipayamak": 0
+    },
+    "closeTicketAdmin": {
+      "type": ["LOG", "EMAIL"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "closeTicketAdmin",
+      "melipayamak": 0
+    },
+    "generateWalletAddress": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "generateWalletAddress",
+      "melipayamak": 0
+    },
+    "createSymbol": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "createSymbol",
+      "melipayamak": 0
+    },
+    "transferTatam": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "transferTatam",
+      "melipayamak": 0
+    },
+    "updateMainSymbol": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;",
+        "en": "&lt;p&gt;&lt;img alt=&quot;&quot; src={{logo}} /&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#ffffff&quot;&gt;&lt;strong&gt;&lt;span style=&quot;background-color:#4e5f70&quot;&gt;{{logo}}&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color:#000000&quot;&gt;{{message}}&lt;/span&gt;&lt;/p&gt;"
+      },
+      "kavenegar": "updateMainSymbol",
+      "melipayamak": 0
+    },
+    "addOrderFuture": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "",
+        "en": ""
+      },
+      "kavenegar": "addOrderFuture",
+      "melipayamak": 0
+    },
+    "closeOrderFuture": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "",
+        "en": ""
+      },
+      "kavenegar": "closeOrderFuture",
+      "melipayamak": 0
+    },
+    "marginCallFutureTrackerLong": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "",
+        "en": ""
+      },
+      "kavenegar": "marginCallFutureTrackerLong",
+      "melipayamak": 0
+    },
+    "marginCallFutureTrackerShort": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "",
+        "en": ""
+      },
+      "kavenegar": "marginCallFutureTrackerShort",
+      "melipayamak": 0
+    },
+    "requestStep1": {
+      "type": ["LOG"],
+      "message": {
+        "fa": "",
+        "en": ""
+      },
+      "title": {
+        "fa": "",
+        "en": ""
+      },
+      "description": {
+        "fa": "",
+        "en": ""
+      },
+      "emailTemplate": {
+        "fa": "",
+        "en": ""
+      },
+      "kavenegar": "requestStep1",
+      "melipayamak": 0
+    }
+  },
+  "emailAppName": "tetherkade"
+}

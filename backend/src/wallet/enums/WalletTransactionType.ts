@@ -1,0 +1,17 @@
+export enum WalletTransactionType {
+  Withdraw = 'Withdraw',
+  Order = 'Order',
+  Trade = 'Trade',
+  Gift = 'Gift',
+  Blocked = 'Blocked',
+  CommissionTrade = 'CommissionTrade',
+  Commission = 'Commission',
+  Payment = 'Payment',
+  Deposit = 'Deposit',
+  Fiat = 'Fiat',
+  Manual = 'Manual',
+  Referral = 'Referral',
+  Fee = 'Fee',
+  Internal = 'Internal',
+  Coin = 'Coin',
+}
