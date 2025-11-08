@@ -9,7 +9,7 @@ export default defineNuxtPlugin(() => {
   const loadGoftino = () => {
     const script = document.createElement('script')
     script.async = true
-    script.src = 'https://www.goftino.com/widget/nitfxT'
+    script.src = 'https://www.goftino.com/widget/3RMqAq'
     document.head.appendChild(script)
   }
 

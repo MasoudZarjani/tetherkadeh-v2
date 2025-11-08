@@ -69,7 +69,7 @@ const { loading, usdtWallet, irtWallet } = useWallet()
         :available="irtWallet.totalIRT - (irtWallet.totalWithdrawIRT + irtWallet.totalBlockedIRT)"
         :blocked="irtWallet.totalWithdrawIRT + irtWallet.totalBlockedIRT"
         withdrawUrl="/dashboard/wallet/withdraw/bank"
-        depositUrl="/dashboard/wallet/deposit/bank"
+        depositUrl="/dashboard/wallet/deposit/crypto"
         :digits="0"
       />
     </div>

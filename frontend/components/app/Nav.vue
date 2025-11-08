@@ -129,7 +129,7 @@ const signOut = () => {
           </NuxtLink>
           <div class="flex justify-between items-center w-full py-2 px-6">
             <NuxtLink
-              :to="$localePath('/dashboard/wallet/deposit/bank')"
+              :to="$localePath('/dashboard/wallet/deposit/crypto')"
               class="rounded-full w-12 h-12 bg-white dark:bg-slate-900 flex justify-center items-center"
             >
               <BaseIcon

@@ -19,13 +19,13 @@ const props = defineProps({
 })
 
 const tabs = ref<Tab[]>([
-  {
-    name: 'depositIrt',
-    key: 'bank',
-    current: props.currentTab === 'bank' ? true : false,
-    status: props.status,
-    link: '/dashboard/wallet/deposit/bank',
-  },
+  // {
+  //   name: 'depositIrt',
+  //   key: 'bank',
+  //   current: props.currentTab === 'bank' ? true : false,
+  //   status: props.status,
+  //   link: '/dashboard/wallet/deposit/bank',
+  // },
   {
     name: 'depositAccount',
     key: 'identified',
