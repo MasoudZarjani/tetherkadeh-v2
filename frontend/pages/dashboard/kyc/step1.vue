@@ -114,6 +114,33 @@ const {
               v-model="userData.birthday"
               :disabled="isLoading || !checkVerify"
             />
+            <input
+              name="postalCode"
+              placeholder="کد پستی"
+              id="postalCode"
+              type="text"
+              v-model="userData.postalCode"
+              :disabled="isLoading || !checkVerify"
+              :class="
+                isLoading || !checkVerify
+                  ? 'placeholder-slate-300 dark:placeholder-slate-500 text-slate-300 dark:text-slate-500 bg-slate-100 dark:bg-slate-700'
+                  : 'placeholder-slate-500 dark:placeholder-slate-300 bg-slate-200 dark:bg-slate-900'
+              "
+              class="rounded-md lg:rounded-lg bg-background-light-3 dark:bg-background-dark-3 border border-gray-200 dark:border-gray-700 w-full h-10 lg:h-12 text-xs lg:text-base px-2 lg:px-4 focus:outline-none focus:ring focus:ring-blue-400"
+            />
+            <textarea
+              name="address"
+              placeholder="آدرس پستی"
+              id="address"
+              v-model="userData.address"
+              :disabled="isLoading || !checkVerify"
+              :class="
+                isLoading || !checkVerify
+                  ? 'placeholder-slate-300 dark:placeholder-slate-500 text-slate-300 dark:text-slate-500 bg-slate-100 dark:bg-slate-700'
+                  : 'placeholder-slate-500 dark:placeholder-slate-300 bg-slate-200 dark:bg-slate-900'
+              "
+              class="rounded-md lg:rounded-lg bg-background-light-3 dark:bg-background-dark-3 border border-gray-200 dark:border-gray-700 w-full h-10 lg:h-12 text-xs lg:text-base px-2 lg:px-4 focus:outline-none focus:ring focus:ring-blue-400"
+            />
           </div>
         </div>
         <div class="w-full flex justify-center items-center">

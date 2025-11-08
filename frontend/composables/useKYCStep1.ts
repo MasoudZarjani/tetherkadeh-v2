@@ -16,6 +16,8 @@ export function useKYCStep1() {
     lastName: '',
     nationalCode: '',
     birthday: '',
+    postalCode: '',
+    address: '',
   })
   const email = ref(user.value?.email || '')
   const mobile = ref(user.value?.mobile || '')

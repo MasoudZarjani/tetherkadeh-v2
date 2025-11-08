@@ -7,7 +7,7 @@ export function useImageUploadAdvanced() {
   const config = useRuntimeConfig()
   const { token } = useAuth()
   const { showAlert } = useAlertStore()
-
+  console.log(token.value)
   const fileInput = ref<HTMLInputElement | null>(null)
   const previewUrl = ref<string | null>(null)
   const croppedUrl = ref<string | null>(null)
@@ -65,7 +65,7 @@ export function useImageUploadAdvanced() {
         method: 'POST',
         body: formData,
         headers: {
-          Authorization: token.value || '',
+          Authorization: `Bearer ${token.value}` || '',
         },
       })
       imagePath.value = data.data.filename
