@@ -48,21 +48,21 @@ const getData = async () => {
         <div class="flex">
           <BaseIcon className="w-6" name="info" />
           <span class="font-bold text-blue-500 mr-2">
-            {{ $t('withdraw.crypto.alert1') }}
+            {{ $t('withdrawPage.crypto.alert1') }}
           </span>
         </div>
         <div class="flex">
           <BaseIcon className="w-6" name="info" />
           <span class="font-bold text-blue-500 mr-2">
-            {{ $t('withdraw.crypto.alert2') }}
+            {{ $t('withdrawPage.crypto.alert2') }}
           </span>
         </div>
         <div class="flex mt-2">
           <BaseIcon className="w-6" name="info" />
           <span class="font-bold text-blue-500 mr-2">
-            {{ $t('withdraw.crypto.alert3') }}
+            {{ $t('withdrawPage.crypto.alert3') }}
             <span class="text-blue-400 underline">{{ $t(site?.siteName) }}</span>
-            {{ $t('withdraw.crypto.alert31') }}
+            {{ $t('withdrawPage.crypto.alert31') }}
           </span>
         </div>
       </CoreCardDefault>
