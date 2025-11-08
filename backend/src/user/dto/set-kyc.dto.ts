@@ -23,6 +23,14 @@ export class SetKycDto {
   @IsString()
   @IsNotEmpty()
   readonly nationalCode: string;
+  @ApiProperty({ default: '9181111111', required: true })
+  @IsString()
+  @IsNotEmpty()
+  readonly postalCode: string;
+  @ApiProperty({ default: 'مشهد', required: true })
+  @IsString()
+  @IsNotEmpty()
+  readonly address: string;
   @ApiProperty({ default: [], required: true })
   @IsNotEmpty()
   readonly docs: string[]; // Assuming docs is an array of strings representing file paths or URLs
