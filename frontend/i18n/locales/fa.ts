@@ -253,6 +253,8 @@ export default {
   clickHere: 'اینجا کلیک کنید',
   edit: 'ویرایش',
   userInputPlaceholder: 'شماره همراه یا ایمیل',
+  faq: 'سوالات متداول',
+  address: 'آدرس',
   services: {
     fast: 'سرعت بالا',
     fastBody: 'تجربه‌ای سریع و بدون وقفه در خرید و فروش تتر.',

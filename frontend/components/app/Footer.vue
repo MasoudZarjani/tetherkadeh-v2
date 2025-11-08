@@ -79,7 +79,11 @@ const headers = ['quickAccess', 'contactUs']
           >
             {{ element.title }}
           </a>
-          <nuxt-link v-else :to="$localePath(element.to)" class="flex items-center hover:text-blue-400">
+          <nuxt-link
+            v-else
+            :to="$localePath(element.to)"
+            class="flex items-center hover:text-blue-400"
+          >
             {{ $t('navigation.' + element.title) }}
           </nuxt-link>
         </div>
@@ -90,7 +94,6 @@ const headers = ['quickAccess', 'contactUs']
     <div
       class="bg-slate-50 dark:bg-slate-800 flex flex-col items-center justify-between px-2 py-2 lg:flex-row lg:px-8"
     >
-      <div></div>
       <div>
         {{ $t('copyright1') }}
         <a href="https://tetherkade.com" class="text-blue-400"
@@ -99,9 +102,9 @@ const headers = ['quickAccess', 'contactUs']
         {{ $t('copyright2') }}
       </div>
       <div class="my-4 flex items-center justify-center lg:my-0">
-        <div class="px-2" v-for="social in socials">
+        <div class="px-2 w-12" v-for="social in socials">
           <a :href="social.to" target="_blank">
-            <BaseIcon :name="social.icon" class="w-8" fill="#0084FF" />
+            <BaseIcon :name="social.icon" className="w-8 h-8" fill="#0084FF" />
           </a>
         </div>
       </div>

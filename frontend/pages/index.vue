@@ -1,9 +1,5 @@
 <script setup lang="ts">
-import { useOverlayStore } from '~/stores/overlay'
-import { useSymbolFetch } from '~/composables/useSymbolFetch'
-
 const { locale } = useI18n()
-const { toggleOverlay } = useOverlayStore()
 const { site } = await useSiteInfo()
 
 definePageMeta({
@@ -120,13 +116,13 @@ useSchemaOrg([
     ],
   },
 ])
+
 onMounted(() => {
   getData()
 })
 // Fetch data
-toggleOverlay(true)
 const { isLoading, items, getData } = await useSymbolFetch()
-toggleOverlay(false)
+
 </script>
 
 <template>

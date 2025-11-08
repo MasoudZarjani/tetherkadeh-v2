@@ -247,6 +247,8 @@ export default {
   clickHere: 'Click Here',
   edit: 'Edit',
   userInputPlaceholder: 'Mobile or Email',
+  faq: 'FAQ',
+  address: 'Address',
   faqList: {
     title: 'Your Frequently Asked Questions',
     description:

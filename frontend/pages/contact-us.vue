@@ -82,8 +82,8 @@ const contactChannels = [
     id: 'phone',
     icon: 'phone',
     title: 'phoneCall',
-    value: computed(() => site.value?.mobile),
-    link: computed(() => `tel:${site.value?.mobile}`),
+    value: site.value?.mobile,
+    link: `tel:${site.value?.mobile}`,
     linkText: 'تماس بگیرید',
     ariaLabel: 'آیکون تلفن',
   },
@@ -91,8 +91,8 @@ const contactChannels = [
     id: 'email',
     icon: 'email',
     title: 'email',
-    value: computed(() => site.value?.email),
-    link: computed(() => `mailto:${site.value?.email}`),
+    value: site.value?.email,
+    link: `mailto:${site.value?.email}`,
     linkText: 'ایمیل بفرستید',
     ariaLabel: 'آیکون ایمیل',
   },
@@ -109,8 +109,8 @@ const contactChannels = [
     id: 'whatsapp',
     icon: 'whatsapp',
     title: 'whatsapp',
-    value: computed(() => site.value?.mobile),
-    link: computed(() => site.value?.whatsapp),
+    value: site.value?.mobile,
+    link: site.value?.whatsapp,
     linkText: 'چت کنید',
     ariaLabel: 'آیکون واتس اپ',
   },
@@ -122,7 +122,7 @@ const officeInfo = [
     id: 'address',
     icon: 'location',
     title: 'address',
-    content: ['مشهد، بلوار وکیل آباد'],
+    content: [site.value?.address],
   },
   {
     id: 'hours',
@@ -203,13 +203,13 @@ const handleSubmit = async () => {
               {{ $t(channel.title) }}
             </h2>
             <p class="text-gray-600 dark:text-gray-400 mb-3">
-              {{ typeof channel.value === 'function' ? channel.value() : channel.value }}
+              {{ channel.value }}
             </p>
             <a
-              :href="typeof channel.link === 'function' ? channel.link() : channel.link"
+              :href="channel.link"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-block text-sm px-4 py-2 rounded-lg transition-all cursor-pointer bg-blue-300/30 text-blue-300 hover:bg-blue-300/40"
+              class="inline-block text-sm px-4 py-2 rounded-lg transition-all cursor-pointer bg-blue-500 text-white hover:bg-blue-300/40"
             >
               {{ channel.linkText }}
             </a>
@@ -316,15 +316,15 @@ const handleSubmit = async () => {
               </h2>
               <div class="w-full rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10813.018967189828!2d59.530317309350266!3d36.318859344206416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sfr!4v1753279425981!5m2!1sen!2sfr"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.0092380220939!2d59.59885576968841!3d36.287153279287175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f6c91234f5352e1%3A0xceaea1ec3deee392!2sRazavi%20Khorasan%20Province%2C%20Mashhad%2C%20Emam%20Khomeini%20St%2C%20Iran!5e0!3m2!1sen!2sgr!4v1762577674899!5m2!1sen!2sgr"
                   width="100%"
                   height="175"
                   style="border: 0"
-                  allowfullscreen
+                  allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
                   :title="`${$t('contactPage.map')} ${$t(site?.siteName)}`"
-                />
+                ></iframe>
               </div>
             </div>
           </div>
