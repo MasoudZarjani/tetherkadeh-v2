@@ -43,7 +43,7 @@ const decrease = () => {
       :value="modelValue"
       @input="$emit('update:modelValue', ($event.target as HTMLInputElement).value)"
       inputmode="numeric"
-      class="w-full flex-1 text-xs lg:text-sm h-8 lg:h-10 font-medium bg-transparent outline-none"
+      class="w-full flex-1 h-10 font-medium bg-transparent outline-none"
     />
     <div class="text-sm mr-1 text-gray-400">{{ base }}</div>
     <div class="absolute top-1/2 transform -translate-y-1/2 right-1">

@@ -118,10 +118,10 @@ const trade = async (side: string) => {
 </script>
 
 <template>
-  <CoreCardDefault class-name="w-full max-w-lg">
+  <CoreCardDefault class-name="w-full max-w-lg text-lg">
     <CoreInputTabTrade v-model="selectedTab" />
     <hr class="text-slate-300 dark:text-slate-600" />
-    <div class="flex flex-col gap-4 mt-4 p-4">
+    <div class="flex flex-col gap-8 mt-4 p-4">
       <CoreInputQuantity
         v-model="amount"
         :error="amountError"

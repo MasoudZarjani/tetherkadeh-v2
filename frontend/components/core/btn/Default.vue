@@ -22,7 +22,7 @@ defineProps({
       outline
         ? 'border border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white before:opacity-10'
         : 'bg-blue-400 text-white hover:bg-blue-500 before:opacity-20',
-      rounded ? 'rounded-full h-12 w-12 md:w-14 md:h-14' : 'rounded-md h-10 min-w-16',
+      rounded ? 'rounded-full h-12 w-12 md:w-14 md:h-14' : 'rounded-md h-14 min-w-16',
       isLoading ? 'transition ease-in-out duration-150 cursor-not-allowed opacity-75' : '',
     ]"
     :disabled="isLoading"

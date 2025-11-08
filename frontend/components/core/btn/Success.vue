@@ -13,7 +13,7 @@ defineProps({
 
 <template>
   <button
-    class="h-8 lg:h-12 px-2 lg:px-6 text-sm lg:text-base rounded-lg text-white cursor-pointer"
+    class="h-12 px-2 lg:px-6 rounded-lg text-white cursor-pointer"
     :class="outline ? 'border border-green-500' : 'bg-green-500'"
     :disabled="isLoading"
   >

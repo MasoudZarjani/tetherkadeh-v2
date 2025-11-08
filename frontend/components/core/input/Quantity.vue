@@ -50,7 +50,7 @@ const emit = defineEmits(['update:modelValue'])
       :class="
         error ? 'ring-1 ring-red-500' : 'outline-none ring-1 ring-slate-300 dark:ring-slate-600'
       "
-      class="rounded-md lg:rounded-lg box-border bg-slate-200 dark:bg-slate-700 w-full h-8 lg:h-10 text-xs lg:text-base px-2 lg:px-4"
+      class="rounded-md lg:rounded-lg box-border bg-slate-200 dark:bg-slate-700 w-full h-10 px-2 lg:px-4"
     />
     <span class="absolute left-2 lg:left-4 top-2 lg:top-3">{{ base }}</span>
     <p class="help-message text-red-500 mt-1 small-font text-xs" :class="locale === 'fa' ? 'text-right' : 'text-left'" v-if="error">
