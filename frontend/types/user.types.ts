@@ -15,6 +15,8 @@ export interface User {
   firstName: string
   lastName: string
   docs: any
+  postalCode: string
+  address: string
 }
 
 export enum UserStatus {

@@ -45,6 +45,8 @@ export function useKYCStep2() {
         lastName: user.value?.lastName ?? '',
         nationalCode: user.value?.nationalCode ?? '',
         birthday: user.value?.birthday ?? '',
+        postalCode: user.value?.postalCode ?? '',
+        address: user.value?.address ?? '',
         docs,
         step: 'Step2',
       }
