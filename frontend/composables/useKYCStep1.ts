@@ -109,6 +109,8 @@ export function useKYCStep1() {
         lastName: userData.value.lastName,
         nationalCode: useTrimNumber(userData.value.nationalCode),
         birthday: birthDay,
+        postalCode: userData.value.postalCode,
+        address: userData.value.address,
         docs,
         step: 'Step1',
       }
