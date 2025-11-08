@@ -81,8 +81,8 @@ const pasteFromButton = async () => {
 <template>
   <div>
     <div class="flex justify-between w-full items-center">
-      <label class="text-gray-500">{{ $t('twoStepVerificationLabel') }}</label>
-      <div class="text-blue-400-1 cursor-pointer" @click="pasteFromButton">{{ $t('paste') }}</div>
+      <label>{{ $t('twoStepVerificationLabel') }}</label>
+      <div class="text-blue-400 cursor-pointer" @click="pasteFromButton">{{ $t('paste') }}</div>
     </div>
     <div class="mt-1 text-right">
       <div class="flex justify-between mb-6" dir="ltr">
@@ -93,7 +93,7 @@ const pasteFromButton = async () => {
           inputmode="numeric"
           pattern="[0-9]*"
           maxlength="1"
-          class="bg-gray-300 dark:bg-background-dark-3 w-12 h-12 text-center border border-gray-200 dark:border-gray-700 rounded-lg text-xl font-bold focus:ring-2 focus:ring-slate-300 dark:ring-slate-600 outline-none"
+          class="bg-slate-200 dark:bg-slate-900 w-12 h-12 text-center border border-gray-200 dark:border-gray-700 rounded-lg text-xl font-bold focus:ring-2 focus:ring-slate-300 dark:ring-slate-600 outline-none"
           v-model="code[index]"
           ref="inputs"
           @input="handleInput($event, index)"

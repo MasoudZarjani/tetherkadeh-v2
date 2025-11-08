@@ -16,7 +16,7 @@ defineEmits<{
     <label
       for="userInput"
       class="flex items-center text-xs lg:text-base font-medium dark:text-gray-1 mb-2"
-      :class="locale === 'fa' ? 'justify-end' : 'justify-start'"
+      :class="locale === 'fa' ? 'justify-start' : 'justify-end'"
     >
       {{ $t('userInput') }}
 
