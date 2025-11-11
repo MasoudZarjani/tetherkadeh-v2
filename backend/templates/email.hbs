@@ -1,0 +1,487 @@
+<html lang='fa' dir='rtl'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <title>{{title}}</title>
+    <style type='text/css'>
+      /* Client-specific Styles */
+      body,
+      table,
+      td,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+
+      /* Reset Styles */
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+      }
+      img {
+        display: block;
+      }
+
+      /* iOS BLUE LINKS */
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+
+      /* MOBILE STYLES */
+      @media only screen and (max-width: 600px) {
+        .email-container {
+          width: 100% !important;
+          margin: auto !important;
+        }
+        .mobile-padding {
+          padding: 20px 15px !important;
+        }
+        .mobile-padding-small {
+          padding: 15px 15px !important;
+        }
+        .mobile-hide {
+          display: none !important;
+        }
+        .mobile-font-size {
+          font-size: 16px !important;
+        }
+        .mobile-title {
+          font-size: 18px !important;
+        }
+        .mobile-code {
+          font-size: 24px !important;
+          letter-spacing: 3px !important;
+        }
+        .mobile-button {
+          padding: 12px 30px !important;
+          font-size: 14px !important;
+        }
+      }
+    </style>
+  </head>
+  <body
+    style="margin: 0; padding: 0; font-family: Tahoma, 'Segoe UI', Arial, sans-serif; background-color: #f4f7fa; direction: rtl; width: 100%; height: 100%;"
+  >
+    <!-- Wrapper Table -->
+    <table
+      role='presentation'
+      width='100%'
+      cellpadding='0'
+      cellspacing='0'
+      border='0'
+      style='margin: 0; padding: 0; width: 100%; background-color: #f4f7fa;'
+    >
+      <tr>
+        <td align='center' style='padding: 20px 10px;'>
+          <!-- Main Container -->
+          <table
+            role='presentation'
+            class='email-container'
+            width='600'
+            cellpadding='0'
+            cellspacing='0'
+            border='0'
+            style='max-width: 600px; width: 100%; background-color: #ffffff; margin: 0 auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);'
+          >
+
+            <!-- Header -->
+            {{#if logo}}
+              <tr>
+                <td
+                  align='center'
+                  style='background: linear-gradient(135deg, #155dfc 0%, #6795f8 100%); padding: 30px 20px;'
+                >
+                  <table
+                    role='presentation'
+                    width='100%'
+                    cellpadding='0'
+                    cellspacing='0'
+                    border='0'
+                  >
+                    <tr>
+                      <td align='center'>
+                        <img
+                          src='{{logo}}'
+                          alt='{{appName}}'
+                          style='max-width: 120px; width: 100%; height: auto; display: block; margin: 0 auto 10px;'
+                        />
+                      </td>
+                    </tr>
+                    {{#if appName}}
+                      <tr>
+                        <td
+                          align='center'
+                          style='color: #ffffff; font-size: 22px; font-weight: 600; padding-top: 10px; line-height: 1.4;'
+                        >
+                          {{appName}}
+                        </td>
+                      </tr>
+                    {{/if}}
+                  </table>
+                </td>
+              </tr>
+            {{/if}}
+
+            <!-- Content -->
+            <tr>
+              <td class='mobile-padding' style='padding: 30px 25px;'>
+                <table
+                  role='presentation'
+                  width='100%'
+                  cellpadding='0'
+                  cellspacing='0'
+                  border='0'
+                >
+
+                  <!-- Title -->
+                  {{#if title}}
+                    <tr>
+                      <td
+                        class='mobile-title'
+                        style='color: #2d3748; font-size: 20px; font-weight: 600; padding-bottom: 20px; line-height: 1.4;'
+                      >
+                        {{title}}
+                      </td>
+                    </tr>
+                  {{/if}}
+
+                  <!-- Message Box -->
+                  {{#if message}}
+                    <tr>
+                      <td style='padding: 15px 0;'>
+                        <table
+                          role='presentation'
+                          width='100%'
+                          cellpadding='0'
+                          cellspacing='0'
+                          border='0'
+                          style='background-color: #f7fafc; border-right: 4px solid #6795f8;'
+                        >
+                          <tr>
+                            <td
+                              class='mobile-font-size'
+                              style='padding: 15px; color: #4a5568; line-height: 1.6; font-size: 15px;'
+                            >
+                              {{{message}}}
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  {{/if}}
+
+                  <!-- Code Box -->
+                  {{#if code}}
+                    <tr>
+                      <td style='padding: 20px 0;'>
+                        <table
+                          role='presentation'
+                          width='100%'
+                          cellpadding='0'
+                          cellspacing='0'
+                          border='0'
+                          style='background: linear-gradient(135deg, #155dfc 0%, #6795f8 100%);'
+                        >
+                          <tr>
+                            <td align='center' style='padding: 20px 15px;'>
+                              <table
+                                role='presentation'
+                                cellpadding='0'
+                                cellspacing='0'
+                                border='0'
+                              >
+                                <tr>
+                                  <td
+                                    align='center'
+                                    style='color: #ffffff; font-size: 14px; opacity: 0.9; padding-bottom: 8px;'
+                                  >
+                                    کد تأیید شما:
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    align='center'
+                                    class='mobile-code'
+                                    style="color: #ffffff; font-size: 28px; font-weight: bold; letter-spacing: 4px; font-family: 'Courier New', Courier, monospace; padding: 5px 0;"
+                                  >
+                                    {{code}}
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style='padding: 10px 0 20px 0;'>
+                        <table
+                          role='presentation'
+                          width='100%'
+                          cellpadding='0'
+                          cellspacing='0'
+                          border='0'
+                          style='background-color: #edf2f7;'
+                        >
+                          <tr>
+                            <td
+                              style='padding: 12px 15px; color: #4a5568; font-size: 13px; line-height: 1.6;'
+                            >
+                              ⏰ این کد تا ۱۰ دقیقه آینده معتبر است.<br />
+                              🔒 این کد را با هیچ‌کس به اشتراک نگذارید.
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  {{/if}}
+
+                  <!-- Button/Link -->
+                  {{#if link}}
+                    <tr>
+                      <td align='center' style='padding: 25px 0;'>
+                        <table
+                          role='presentation'
+                          cellpadding='0'
+                          cellspacing='0'
+                          border='0'
+                        >
+                          <tr>
+                            <td
+                              align='center'
+                              style='background: linear-gradient(135deg, #155dfc 0%, #6795f8 100%);'
+                            >
+                              <a
+                                href='{{link}}'
+                                class='mobile-button'
+                                style='background: linear-gradient(135deg, #155dfc 0%, #6795f8 100%); color: #ffffff; padding: 14px 35px; text-decoration: none; display: inline-block; font-weight: 600; font-size: 15px; border: none;'
+                              >
+                                {{#if linkText}}{{linkText}}{{else}}ادامه{{/if}}
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  {{/if}}
+
+                  <!-- Amount Box -->
+                  {{#if amount}}
+                    <tr>
+                      <td style='padding: 15px 0;'>
+                        <table
+                          role='presentation'
+                          width='100%'
+                          cellpadding='0'
+                          cellspacing='0'
+                          border='0'
+                          style='background-color: #f0fdf4; border-right: 4px solid #10b981;'
+                        >
+                          <tr>
+                            <td style='padding: 15px;'>
+                              <table
+                                role='presentation'
+                                cellpadding='0'
+                                cellspacing='0'
+                                border='0'
+                              >
+                                <tr>
+                                  <td
+                                    style='color: #065f46; font-size: 13px; padding-bottom: 5px; font-weight: 600;'
+                                  >
+                                    مبلغ:
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td
+                                    style='color: #047857; font-size: 20px; font-weight: bold;'
+                                  >
+                                    {{amount}}
+                                    تومان
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  {{/if}}
+
+                  <!-- Tracking Code -->
+                  {{#if trackingCode}}
+                    <tr>
+                      <td style='padding: 15px 0;'>
+                        <table
+                          role='presentation'
+                          width='100%'
+                          cellpadding='0'
+                          cellspacing='0'
+                          border='0'
+                          style='background-color: #eff6ff; border-right: 4px solid #3b82f6;'
+                        >
+                          <tr>
+                            <td
+                              style='padding: 12px 15px; color: #1e40af; font-size: 13px;'
+                            >
+                              <strong>کد پیگیری:</strong>
+                              {{trackingCode}}
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  {{/if}}
+
+                  <!-- Date -->
+                  {{#if date}}
+                    <tr>
+                      <td
+                        align='center'
+                        style='padding: 15px 0; color: #718096; font-size: 13px;'
+                      >
+                        📅
+                        {{date}}
+                      </td>
+                    </tr>
+                  {{/if}}
+
+                  <!-- Username -->
+                  {{#if username}}
+                    <tr>
+                      <td style='padding: 15px 0;'>
+                        <table
+                          role='presentation'
+                          width='100%'
+                          cellpadding='0'
+                          cellspacing='0'
+                          border='0'
+                          style='background-color: #fef3c7; border-right: 4px solid #f59e0b;'
+                        >
+                          <tr>
+                            <td
+                              style='padding: 12px 15px; color: #92400e; font-size: 13px;'
+                            >
+                              <strong>کاربر:</strong>
+                              {{username}}
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  {{/if}}
+
+                  <!-- Divider -->
+                  <tr>
+                    <td style='padding: 20px 0;'>
+                      <table
+                        role='presentation'
+                        width='100%'
+                        cellpadding='0'
+                        cellspacing='0'
+                        border='0'
+                      >
+                        <tr>
+                          <td style='border-top: 1px solid #e2e8f0;'></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <!-- Footer Note -->
+                  <tr>
+                    <td
+                      align='center'
+                      style='color: #718096; font-size: 13px; line-height: 1.5; padding-top: 10px;'
+                    >
+                      اگر این درخواست را شما انجام نداده‌اید، لطفاً این ایمیل را
+                      نادیده بگیرید.
+                    </td>
+                  </tr>
+
+                </table>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td
+                class='mobile-padding-small'
+                style='background-color: #2d3748; padding: 25px 20px;'
+              >
+                <table
+                  role='presentation'
+                  width='100%'
+                  cellpadding='0'
+                  cellspacing='0'
+                  border='0'
+                >
+                  {{#if appName}}
+                    <tr>
+                      <td
+                        align='center'
+                        style='color: #ffffff; font-size: 16px; font-weight: 600; padding-bottom: 8px;'
+                      >
+                        {{appName}}
+                      </td>
+                    </tr>
+                  {{/if}}
+                  {{#if supportEmail}}
+                    <tr>
+                      <td
+                        align='center'
+                        style='color: #cbd5e0; font-size: 13px; padding: 5px 0;'
+                      >
+                        پشتیبانی:
+                        <a
+                          href='mailto:{{supportEmail}}'
+                          style='color: #6795f8; text-decoration: none;'
+                        >{{supportEmail}}</a>
+                      </td>
+                    </tr>
+                  {{/if}}
+                  {{#if year}}
+                    <tr>
+                      <td
+                        align='center'
+                        style='color: #a0aec0; font-size: 12px; padding-top: 12px; opacity: 0.8;'
+                      >
+                        ©
+                        {{year}}
+                        تمامی حقوق محفوظ است
+                      </td>
+                    </tr>
+                  {{/if}}
+                </table>
+              </td>
+            </tr>
+
+          </table>
+          <!-- End Main Container -->
+        </td>
+      </tr>
+    </table>
+    <!-- End Wrapper Table -->
+  </body>
+</html>
