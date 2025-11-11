@@ -26,13 +26,13 @@ const tabs = ref<Tab[]>([
   //   status: props.status,
   //   link: '/dashboard/wallet/deposit/bank',
   // },
-  {
-    name: 'depositAccount',
-    key: 'identified',
-    current: props.currentTab === 'identified' ? true : false,
-    status: props.status,
-    link: '/dashboard/wallet/deposit/identified',
-  },
+  // {
+  //   name: 'depositAccount',
+  //   key: 'identified',
+  //   current: props.currentTab === 'identified' ? true : false,
+  //   status: props.status,
+  //   link: '/dashboard/wallet/deposit/identified',
+  // },
   {
     name: 'depositCurrency',
     key: 'crypto',
