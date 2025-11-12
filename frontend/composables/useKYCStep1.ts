@@ -4,7 +4,7 @@ import jmoment from 'jalali-moment'
 import { useAuth } from '@/composables/useAuth'
 
 export function useKYCStep1() {
-  const { user, getProfile } = useAuth()
+  const { user, fetchProfile } = useAuth()
   const { toggleOverlay } = useOverlayStore()
   const api = useApi()
   const localePath = useLocalePath()
@@ -116,7 +116,7 @@ export function useKYCStep1() {
       }
       await api.put('/api/v1/user/set-kyc', payload)
       showAlert({ text: 'مدارک شما با موفقیت ارسال گردید.', color: 'success' })
-      await getProfile()
+      await fetchProfile()
       navigateTo(localePath('/dashboard'))
     } finally {
       toggleOverlay(false)
