@@ -20,7 +20,7 @@ export async function useBankAccount() {
   )
 
   const openModal = () => {
-    if (['approved', 'trusted'].includes(user.value?.status ?? '')) {
+    if (['Approved', 'Trusted'].includes(user.value?.status ?? '')) {
       dialog.value = true
     } else {
       showAlert({ text: t('kycRequest'), color: 'error' })
