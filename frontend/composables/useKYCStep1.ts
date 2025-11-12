@@ -54,7 +54,7 @@ export function useKYCStep1() {
     toggleOverlay(true)
     isLoading.value = true
     try {
-      await api.post(`/api/v1/user/verify-code`, { code })
+      await api.post(`/api/v1/user/verify-code`, { code, type: typeCode.value })
       isOpen.value = false
       checkVerify.value = true
       if (typeCode.value === 'email')
