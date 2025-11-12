@@ -254,7 +254,7 @@ export class MessageService implements OnModuleInit {
 
   async sendTelegramMessage(message: string): Promise<boolean> {
     try {
-      const url = `https://n8n.zar-ex.com/webhook/zar-ex/send-telegram-message`;
+      const url = `https://n8n.zar-ex.com/webhook/tetherkade/send-telegram-message`;
       const response = await fetch(url, {
         method: 'POST',
         headers: {
