@@ -27,7 +27,7 @@ defineProps<{
       class="rounded-md lg:rounded-lg border border-gray-200 dark:border-gray-700 w-full h-10 lg:h-12 text-xs lg:text-base px-2 lg:px-4"
     />
     <div
-      class="absolute left-2 top-3 cursor-pointer text-blue-400-1"
+      class="absolute left-2 top-3 cursor-pointer text-blue-400"
       v-if="!isLoading && !disabled"
       @click="$emit('sendVerifyCode', 'mobile')"
     >
