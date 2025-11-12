@@ -149,7 +149,7 @@ export class MessageService implements OnModuleInit {
         logo: this._settings.backendUrl + this._settings.logo,
         title: messageConfig.title?.[DEFAULT_LANG] || '',
         message: messageConfig.message?.[DEFAULT_LANG] || data.message || '',
-        appName: this._settings.persianEmailAppName || 'زر اکسچنج',
+        appName: this._settings.persianEmailAppName || 'تترکده',
         year: new Date().getFullYear(),
         supportEmail: this._settings.email,
         ...data.dataMessage,
@@ -158,9 +158,9 @@ export class MessageService implements OnModuleInit {
       const htmlTemplate = this.emailTemplate(templateData);
 
       const mailOptions = {
-        from: `${this._settings.persianEmailAppName || 'زر اکسچنج'} <${this._settings.email}>`,
+        from: `${this._settings.persianEmailAppName || 'تترکده'} <${this._settings.email}>`,
         to: data.user.email,
-        subject: messageConfig.title?.[DEFAULT_LANG] || 'صرافی زر اکسچنج',
+        subject: messageConfig.title?.[DEFAULT_LANG] || 'صرافی تترکده',
         html: htmlTemplate,
       };
 
