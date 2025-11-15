@@ -220,7 +220,7 @@ export default defineNuxtConfig({
       // ... keep your manifest config
     },
     workbox: {
-      swDest: 'project1-sw.js',
+      swDest: 'tetherkade-sw.js',
       // ✅ Remove navigateFallback to avoid issues
       globPatterns: ['**/*.{js,css,html,png,svg,ico,webp}'],
       // ✅ Add runtime caching
