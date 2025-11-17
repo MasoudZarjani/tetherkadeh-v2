@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import type { Setting } from '~/types/setting.types'
 
-const CACHE_KEY = 'site-settings'
+const CACHE_KEY = 'site-settings-t'
 const CACHE_TTL = 60 * 60 * 1000 // 1 ساعت
 
 // Cache در سطح سرور (بین رندرها)
