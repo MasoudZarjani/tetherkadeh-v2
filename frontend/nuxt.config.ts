@@ -32,7 +32,7 @@ export default defineNuxtConfig({
           content: '#155dfc',
         },
       ],
-      
+
       link: [
         {
           rel: 'preconnect',
@@ -220,6 +220,7 @@ export default defineNuxtConfig({
       // ... keep your manifest config
     },
     workbox: {
+      swDest: 'tetherkade-sw.js',
       // ✅ Remove navigateFallback to avoid issues
       globPatterns: ['**/*.{js,css,html,png,svg,ico,webp}'],
       // ✅ Add runtime caching
