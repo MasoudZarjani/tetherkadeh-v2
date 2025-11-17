@@ -108,15 +108,7 @@ const save = async () => {
               variant="outlined"
             ></v-text-field>
           </v-col>
-          <v-col cols="12" sm="4">
-            <v-text-field
-              v-model="items.whatsapp"
-              :rules="[rules.required]"
-              label="واتس اپ"
-              prepend-inner-icon="mdi-web"
-              variant="outlined"
-            ></v-text-field>
-          </v-col>
+          
         </v-row>
       </v-card-text>
       <v-card-actions>

@@ -105,15 +105,6 @@ const contactChannels = [
     linkText: 'پیام دهید',
     ariaLabel: 'آیکون تلگرام',
   },
-  {
-    id: 'whatsapp',
-    icon: 'whatsapp',
-    title: 'whatsapp',
-    value: site.value?.mobile,
-    link: site.value?.whatsapp,
-    linkText: 'چت کنید',
-    ariaLabel: 'آیکون واتس اپ',
-  },
 ]
 
 // Office info data

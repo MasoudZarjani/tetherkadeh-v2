@@ -25,11 +25,7 @@ const items = [
     },
   ],
   [
-    {
-      title: site?.value?.mobile,
-      to: site?.value?.whatsapp,
-      external: true,
-    },
+    
     {
       title: site?.value?.email,
       to: `mailto:${site?.value?.mobile}`,
@@ -49,11 +45,7 @@ const socials = [
   {
     icon: 'telegram',
     to: site?.value?.telegram,
-  },
-  {
-    icon: 'whatsapp',
-    to: site?.value?.whatsapp,
-  },
+  }
 ]
 const headers = ['quickAccess', 'contactUs']
 </script>
