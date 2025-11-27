@@ -122,7 +122,6 @@ onMounted(() => {
 })
 // Fetch data
 const { isLoading, items, getData } = await useSymbolFetch()
-
 </script>
 
 <template>
@@ -134,7 +133,7 @@ const { isLoading, items, getData } = await useSymbolFetch()
       را به سایر ارزها تبدیل کرده و سپس نگهداری فرمایید.
     </p>
   </CoreDialogAnnouncement>
-  <GeneralBanner :symbol="items" v-if="!isLoading" />
+  <GeneralBanner :symbol="items" :isLoading="isLoading" />
   <GeneralFeaturesSection />
   <GeneralHowSection />
   <GeneralFaqSection />

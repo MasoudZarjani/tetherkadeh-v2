@@ -3,7 +3,7 @@ const { site } = await useSiteInfo()
 const localePath = useLocalePath()
 const { locale } = useI18n()
 
-const props = defineProps<{ symbol: any }>()
+const props = defineProps<{ symbol: any; isLoading: boolean }>()
 
 const lastBuy =
   (props.symbol.last + props.symbol.buyingPriceGap) *
@@ -59,7 +59,7 @@ const lastSell =
                     <span class="text-gray-600 dark:text-gray-300">{{ $t('buy') }}</span>
                     <div>
                       <span class="font-bold text-green-500" id="buyPrice">
-                        {{ useDigitNumber(lastBuy, 0) }}
+                        {{ !isLoading ? useDigitNumber(lastBuy, 0) : 0 }}
                       </span>
                       <span class="text-gray-400 text-sm mr-1">{{ $t('tmn') }}</span>
                     </div>
@@ -70,7 +70,7 @@ const lastSell =
                     <span class="text-gray-600 dark:text-gray-300">{{ $t('sell') }}</span>
                     <div>
                       <span class="font-bold text-red-500" id="sellPrice">
-                        {{ useDigitNumber(lastSell, 0) }}
+                        {{ !isLoading ? useDigitNumber(lastSell, 0) : 0 }}
                       </span>
                       <span class="text-gray-400 text-sm mr-1">{{ $t('tmn') }}</span>
                     </div>
