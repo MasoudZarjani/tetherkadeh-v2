@@ -6,11 +6,11 @@ const { locale } = useI18n()
 const props = defineProps<{ symbol: any; isLoading: boolean }>()
 
 const lastBuy =
-  (props.symbol.last + props.symbol.buyingPriceGap) *
-  (1 + props.symbol.buyingPriceGapPercentage / 100)
+  (props.symbol?.last || 0 + props.symbol?.buyingPriceGap || 0) *
+  (1 + props.symbol?.buyingPriceGapPercentage || 0 / 100)
 const lastSell =
-  (props.symbol.last - props.symbol.sellingPriceGap) *
-  (1 - props.symbol.sellingPriceGapPercentage / 100)
+  (props.symbol?.last || 0 - props.symbol?.sellingPriceGap || 0) *
+  (1 - props.symbol?.sellingPriceGapPercentage || 0 / 100)
 </script>
 
 <template>
