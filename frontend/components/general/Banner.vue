@@ -5,12 +5,21 @@ const { locale } = useI18n()
 
 const props = defineProps<{ symbol: any; isLoading: boolean }>()
 
-const lastBuy =
-  (props.symbol?.last || 0 + props.symbol?.buyingPriceGap || 0) *
-  (1 + props.symbol?.buyingPriceGapPercentage || 0 / 100)
-const lastSell =
-  (props.symbol?.last || 0 - props.symbol?.sellingPriceGap || 0) *
-  (1 - props.symbol?.sellingPriceGapPercentage || 0 / 100)
+const lastBuy = computed(() => {
+  if (!props.symbol) return 0
+  return (
+    (props.symbol.last + props.symbol.buyingPriceGap) *
+    (1 + props.symbol.buyingPriceGapPercentage / 100)
+  )
+})
+
+const lastSell = computed(() => {
+  if (!props.symbol) return 0
+  return (
+    (props.symbol.last - props.symbol.sellingPriceGap) *
+    (1 - props.symbol.sellingPriceGapPercentage / 100)
+  )
+})
 </script>
 
 <template>
@@ -59,7 +68,7 @@ const lastSell =
                     <span class="text-gray-600 dark:text-gray-300">{{ $t('buy') }}</span>
                     <div>
                       <span class="font-bold text-green-500" id="buyPrice">
-                        {{ !isLoading ? useDigitNumber(lastBuy, 0) : 0 }}
+                        {{ !props.isLoading ? useDigitNumber(lastBuy, 0) : 0 }}
                       </span>
                       <span class="text-gray-400 text-sm mr-1">{{ $t('tmn') }}</span>
                     </div>
@@ -70,7 +79,7 @@ const lastSell =
                     <span class="text-gray-600 dark:text-gray-300">{{ $t('sell') }}</span>
                     <div>
                       <span class="font-bold text-red-500" id="sellPrice">
-                        {{ !isLoading ? useDigitNumber(lastSell, 0) : 0 }}
+                        {{ !props.isLoading ? useDigitNumber(lastSell, 0) : 0 }}
                       </span>
                       <span class="text-gray-400 text-sm mr-1">{{ $t('tmn') }}</span>
                     </div>
