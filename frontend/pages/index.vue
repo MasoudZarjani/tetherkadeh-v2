@@ -125,14 +125,6 @@ const { isLoading, items, getData } = await useSymbolFetch()
 </script>
 
 <template>
-  <CoreDialogAnnouncement v-if="locale === 'fa'">
-    <div class="text-2xl">اطلاعیه📣</div>
-    <p class="my-2">
-      کاربر گرامی، نظر به شرایط جنگی و تحریمی موجود، به اطلاع می‌رسد که نگهداری تتر (USDT) در کیف
-      پول‌ها خطر فریز شدن دارایی را به‌طور جدی افزایش می‌دهد. لذا اکیداً توصیه می‌شود تتر موجود خود
-      را به سایر ارزها تبدیل کرده و سپس نگهداری فرمایید.
-    </p>
-  </CoreDialogAnnouncement>
   <GeneralBanner :symbol="items" :isLoading="isLoading" />
   <GeneralFeaturesSection />
   <GeneralHowSection />
