@@ -5,14 +5,14 @@ const visible = ref(false)
 const isChecked = ref(false)
 
 onMounted(() => {
-  const hasSeen = localStorage.getItem('announcementSeen')
+  const hasSeen = localStorage.getItem('announcementSeen1')
   if (!hasSeen) {
     visible.value = true
   }
 })
 
 function confirm() {
-  localStorage.setItem('announcementSeen', 'true')
+  localStorage.setItem('announcementSeen1', 'true')
   visible.value = false
 }
 </script>

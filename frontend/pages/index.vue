@@ -125,6 +125,16 @@ const { isLoading, items, getData } = await useSymbolFetch()
 </script>
 
 <template>
+  <CoreDialogAnnouncement v-if="locale === 'fa'">
+    <div class="text-2xl">اطلاعیه مهم ‼️</div>
+    <p class="my-2">
+      احتراما با استحضار همراهان گرامی میرساند سایت با دامنه ❌ tetherkadeh.com❌ کلاهبردار وجعلی
+      میباشد و هیچ گونه ارتباطی به مجموعه ما ندارد. ---------------------------------------------
+      سایت اصلی تترکده فقط به این نام و نشانی میباشد هیچ کلمه یا حرف اضافه ای ندارد tetherkade.com
+      ✅ وتترکده هیچ گونه ربات تلگرامی واتساپی ندارد تمامی خرید و فروش ها فقط از طریق نشانی سایت
+      اصلی تترکده قابل انجام میباشد
+    </p>
+  </CoreDialogAnnouncement>
   <GeneralBanner :symbol="items" :isLoading="isLoading" />
   <GeneralFeaturesSection />
   <GeneralHowSection />
