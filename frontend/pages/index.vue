@@ -125,7 +125,7 @@ const { isLoading, items, getData } = await useSymbolFetch()
 </script>
 
 <template>
-  <CoreDialogAnnouncement v-if="locale === 'fa'">
+  <!--<CoreDialogAnnouncement v-if="locale === 'fa'">
     <div class="text-2xl">اطلاعیه مهم ‼️</div>
     <p class="my-2">احتراما با استحضار همراهان گرامی میرساند سایت با دامنه</p>
     <p class="my-2">❌ tetherkadeh.com❌</p>
@@ -138,7 +138,7 @@ const { isLoading, items, getData } = await useSymbolFetch()
       تترکده هیچ گونه ربات تلگرامی واتساپی ندارد تمامی خرید و فروش ها فقط از طریق نشانی سایت اصلی
       تترکده قابل انجام میباشد
     </p>
-  </CoreDialogAnnouncement>
+  </CoreDialogAnnouncement>-->
   <GeneralBanner :symbol="items" :isLoading="isLoading" />
   <GeneralFeaturesSection />
   <GeneralHowSection />
