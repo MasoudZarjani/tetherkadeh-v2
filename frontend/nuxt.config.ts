@@ -134,6 +134,7 @@ export default defineNuxtConfig({
   ],
 
   image: {
+    provider: 'none',
     inject: true,
     format: ['webp', 'avif'], // ✅ Add AVIF for better compression
     quality: 80,
@@ -205,6 +206,7 @@ export default defineNuxtConfig({
       },
     ],
     defaultLocale: 'fa',
+    detectBrowserLanguage: false,
     // detectBrowserLanguage: {
     //   useCookie: true,
     //   cookieKey: 'i18n_redirected',
